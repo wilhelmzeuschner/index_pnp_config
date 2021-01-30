@@ -1,5 +1,5 @@
 # index_pnp_config
-machine.xml file (openPNP config for the index PNP project)
+machine.xml file ([openPNP](https://github.com/openpnp/openpnp) config for the [index PNP project](https://github.com/sphawes/index))
 
 
 ## Information:
