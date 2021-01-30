@@ -11,9 +11,7 @@ COM port is specific to the individual setup.
 ### Outputs:
 Mosfets 1 to 4 can be turned on. Mosfet 1 is assigned to head 1 as the vaccuum pump.
 Mosfets 2 to 4 are actators. They are treated as fans by Marlin.
-Currently M106 and M107 commands are used to turn them on and off. 
-https://marlinfw.org/docs/gcode/M106.html
-https://marlinfw.org/docs/gcode/M107.html
+Currently [M106](https://marlinfw.org/docs/gcode/M106.html) and [M107](https://marlinfw.org/docs/gcode/M107.html) commands are used to turn them on and off.
 They are configured as binary outputs (though PWM should be possible too).
 
 ### Cameras:
