@@ -5,12 +5,12 @@ machine.xml file (openPNP config for the index PNP project)
 ## Information:
 
 ### Driver (Interface to the Board via UART):
-Configured for 250000 baud. Changed from 115200 in order to have higher speeds. This setting needs to be set according to the firmware.
+Configured for 250000 baud. Changed from 115200 to have higher speeds. This setting needs to be set according to the firmware.
 COM port is specific to the individual setup.
 
 ### Outputs:
-Mosfets 1 to 4 can be turned on. Mosfet 1 is assigned to head 1 as the vaccuum pump.
-Mosfets 2 to 4 are actators. They are treated as fans by Marlin.
+Mosfets 1 to 4 can be turned on. Mosfet 1 is assigned to head 1 as the vacuum pump.
+Mosfets 2 to 4 are actuators. They are treated as fans by Marlin.
 Currently [M106](https://marlinfw.org/docs/gcode/M106.html) and [M107](https://marlinfw.org/docs/gcode/M107.html) commands are used to turn them on and off.
 They are configured as binary outputs (though PWM should be possible too).
 
