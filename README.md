@@ -18,3 +18,6 @@ They are configured as binary outputs (though PWM should be possible too).
 The basics for two cameras (up and down) are set up. Details are missing.
 This setting likely needs to be changed depending on the hardware setup.
 
+## Addiotional useful files:
+Check out my other repo for 3D files etc. I use(d) during testing:
+https://github.com/wilhelmzeuschner/index_pnp_stuff
