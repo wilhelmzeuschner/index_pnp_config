@@ -86,7 +86,7 @@
                   </calibration>
                   <source-uri>classpath://samples/pnp-test/pnp-test.png</source-uri>
                </camera>
-               <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM165eb3d66c09c7c8" name="DOWN" looking="Down" settle-method="FixedTime" settle-time-ms="250" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" rotation="0.0" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" deinterlace="false" unique-id="HD USB Camera \\?\usb#vid_05a3&amp;pid_9230&amp;mi_00#7&amp;1b0440c5&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0" fps="5.0">
+               <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM165eb3d66c09c7c8" name="DownCam" looking="Down" settle-method="FixedTime" settle-time-ms="250" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" rotation="0.0" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" deinterlace="false" unique-id="HD USB Camera \\?\usb#vid_05a3&amp;pid_9230&amp;mi_00#8&amp;1296e818&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="2" fps="5.0">
                   <units-per-pixel units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
                   <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
                   <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
@@ -327,7 +327,7 @@
             </calibration>
             <error-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </camera>
-         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM165e2b593d18884c" name="UP" looking="Up" settle-method="FixedTime" settle-time-ms="250" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" rotation="0.0" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" deinterlace="false" unique-id="USB Video Device \\?\usb#vid_05a3&amp;pid_9230&amp;mi_00#8&amp;1f20cbd4&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="5" fps="1.0">
+         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM165e2b593d18884c" name="UpCam" looking="Up" settle-method="FixedTime" settle-time-ms="250" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" rotation="0.0" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" deinterlace="false" unique-id="USB Video Device \\?\usb#vid_05a3&amp;pid_9230&amp;mi_00#8&amp;1f20cbd4&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="5" fps="1.0">
             <units-per-pixel units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
             <head-offsets units="Millimeters" x="87.3" y="43.3" z="0.0" rotation="0.0"/>
@@ -354,10 +354,10 @@
          <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT165ec46b71a52d6c" name="Mosfet_2" interlock-actuator="false" driver-id="DRV1658ac51e6b9ea58" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT165ec4d25730e464" name="Mosfet_3" interlock-actuator="false" driver-id="DRV1658ac51e6b9ea58" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT165ec4d25730e464" name="UpCamLights" interlock-actuator="false" driver-id="DRV1658ac51e6b9ea58" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT165ec4ded291dbc0" name="Mosfet_4" interlock-actuator="false" driver-id="DRV1658ac51e6b9ea58" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT165ec4ded291dbc0" name="DownCamLights" interlock-actuator="false" driver-id="DRV1658ac51e6b9ea58" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
       </actuators>
